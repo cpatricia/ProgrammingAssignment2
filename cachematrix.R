@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## Function that returns a list of functions that can cache
+## the result of an inverse matrix operation
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -17,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Solve an inputted matrix or get a cached value
 
 cacheSolve <- function(x, ...) {
   m <- x$getmat()
